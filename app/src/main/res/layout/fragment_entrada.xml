@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.EntradaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E9E9E9"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="AGENDA"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+
+            <Button
+                android:id="@+id/btn_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:elevation="20dp"
+                android:text="DATA" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btn_hora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:elevation="20dp"
+                android:text="HORA" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:hint="Descrição do Compromisso"
+            android:singleLine="false" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:elevation="20dp"
+            android:text="OK"
+            android:textColorLink="#40C4FF" />
+    </LinearLayout>
+</FrameLayout>

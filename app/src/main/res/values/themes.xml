@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Agenda_EAM" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorSecondaryVariant">#ffffff</item>
+        <item name="color">#ffffff</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">#B2FF59</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Theme.Agenda_EAM" parent="Base.Theme.Agenda_EAM" />
+</resources>
